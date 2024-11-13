@@ -12,7 +12,7 @@ load_dotenv()
 
 # Define o título da página exibido no navegador.
 st.set_page_config(
-    page_title = "Aqui vai o titulo da aba", 
+    page_title = "Analise de Dados com Python - Estácio SE", 
     page_icon = "Designer.png", 
     layout = "wide"
 )
