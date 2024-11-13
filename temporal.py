@@ -9,7 +9,7 @@ from dados import _global_df
 
 def app():
     # Adiciona o banner de imagem usando st.image
-    st.image("Banner_steam.png", use_container_width=True)
+    st.image("Banner_steam.png", use_column_width=True)
     
     # Usa o estilo personalizado para criar a linha separadora
     st.markdown('<div class="custom-divider" ></div>', unsafe_allow_html=True)
