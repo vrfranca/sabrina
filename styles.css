@@ -1,0 +1,41 @@
+/* Customizando a pagina inicial */
+
+/* Oculta todo o cabeçalho das páginas */
+.st-emotion-cache-12fmjuu{
+    display: none;
+}
+
+#e1be8e86{
+    text-align: left;
+}
+
+.st-emotion-cache-asc41u{
+    text-align: center;
+}
+
+.st-emotion-cache-z1fhwk{
+    text-align: right;
+    color:#197dcf;
+}
+
+.dataframe {
+    font-size: 12px;
+}
+.dataframe th {
+    text-align: center;
+}
+
+.custom-divider {
+    border-top: 1px solid #197dcf; /* Substitua #FF5733 pela cor desejada */
+    margin: 5px 0;
+}
+
+/* Altera a cor de fundo do sidebar */
+[data-testid="stSidebar"] {
+    background-color: #171d25;  /* Substitua pela cor desejada */
+}
+
+[data-testid="stAppViewContainer"] {
+    background-color: #203e59;  /* Substitua pela cor desejada */
+}
+
