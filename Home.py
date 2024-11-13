@@ -35,7 +35,7 @@ def app():
     texto2 = '''<p style="color: white;text-align: justify;">
         Brayan Luiz Sobral Santos<br>
         Talita de Jesus Santos<br>
-        Thiago Alexandre de Almeida Andrade
+        Thiago Alexandre de Almeida Andrade<br>
         Sabrina Costa França<br>
         Saymon Santos Alves<br>                                                                             
         <br><br></p>'''
