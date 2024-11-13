@@ -61,7 +61,7 @@ class MultiApp:
                 menu_title = 'Estudo Steam',
                 options = ['Home', 'Analise de Engajamento', 'Analise de Popularidade', 'Analise de Preço', 'Analise de Segmentação', 'Analise Temporal'],
                 # endereço onde por ver os icones disponiveis https://icons.getbootstrap.com/
-                icons = ['house', 'chat-square-quote', 'people', 'coin', 'globe', 'grid', 'calendar4-week'],
+                icons = ['house', 'chat-square-quote', 'people', 'coin', 'grid', 'calendar4-week'],
                 menu_icon = 'steam',
                 default_index = 0,
                 styles = {
