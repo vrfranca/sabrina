@@ -7,7 +7,7 @@ from datetime import datetime
 def app():
     
     # Adiciona o banner de imagem usando st.image
-    st.image("Banner_steam.png", width=100, use_column_width=True)
+    st.image("Banner_steam.png", width=100, use_container_width=True)
 
     # Referenciando o arquivo styles.css bo streamlit
     with open("styles.css") as f:

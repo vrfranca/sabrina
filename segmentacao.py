@@ -9,7 +9,7 @@ from dados import _global_df
 
 def app():
     # Adiciona o banner de imagem usando st.image
-    st.image("Banner_steam.png", use_column_width=True)
+    st.image("Banner_steam.png", use_container_width=True)
     
     # Usa o estilo personalizado para criar a linha separadora
     st.markdown('<div class="custom-divider" ></div>', unsafe_allow_html=True)
@@ -47,13 +47,13 @@ def app():
     )
     st.plotly_chart(fig)
 
-    st.markdown('''<span style="color: white;">
+    st.markdown('''<p style="color: white;text-align: justify;">
             Este gráfico é útil para observar quais editoras têm o maior portfólio de jogos. Editoras com barras mais altas indicam que elas publicaram um número significativamente maior de jogos, 
                 enquanto editoras com barras mais baixas podem ter um número menor de lançamentos.<br>
             Por exemplo, a editora "Big Fish Games" tem uma barra alta, isso indica que ela tem um grande número de jogos publicados, enquanto uma editora com uma barra mais baixa,
                  como uma empresa independente, pode ter um portfólio mais modesto.<br>
             Em resumo, o gráfico oferece uma visão clara da distribuição de jogos por editora, permitindo comparar facilmente o impacto e a produção de diferentes editoras no mercado de jogos.
-            <br><br><br>''', unsafe_allow_html=True)
+            <br><br><br></p>''', unsafe_allow_html=True)
     
     ######################################################################
 
@@ -82,12 +82,12 @@ def app():
     
     st.plotly_chart(fig)
 
-    st.markdown('''<span style="color: white;">
+    st.markdown('''<p style="color: white;text-align: justify;">
             Este gráfico permite visualizar rapidamente quais plataformas têm o maior número de jogos disponíveis. 
                 Plataformas com barras mais altas indicam que possuem um portfólio maior de títulos, enquanto plataformas com barras mais baixas podem indicar uma quantidade menor de jogos.<br>
-            Por exemplo, a plataforma "Windowns" tem uma barra mais alta, isso sugere que a plataforma tem um grande número de jogos disponíveis, 
+            Por exemplo, a plataforma "Windows" tem uma barra mais alta, isso sugere que a plataforma tem um grande número de jogos disponíveis, 
                 possivelmente devido à sua natureza aberta e à variedade de desenvolvedores. Já uma plataforma com uma barra mais baixa, como mac, mais recente ou menos popular, 
                 pode ter um número menor de jogos lançados até o momento.<br>
             Em resumo, o gráfico oferece uma visão clara da distribuição de jogos por plataforma, 
                 permitindo comparações diretas sobre quais plataformas dominam o mercado de jogos em termos de quantidade de títulos.
-            <br><br><br>''', unsafe_allow_html=True)
+            <br><br><br></p>''', unsafe_allow_html=True)

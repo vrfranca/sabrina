@@ -9,7 +9,7 @@ from dados import _global_df
 
 def app():
     # Adiciona o banner de imagem usando st.image
-    st.image("Banner_steam.png", use_column_width=True)
+    st.image("Banner_steam.png", use_container_width=True)
     
     # Usa o estilo personalizado para criar a linha separadora
     st.markdown('<div class="custom-divider" ></div>', unsafe_allow_html=True)
@@ -64,10 +64,10 @@ def app():
 
     # Analise do gráfico
     # Obs.: Para trocar de linha é necessário 02 espaços seguidos ao final da linha
-    st.markdown('''<span style="color: white;">No gráfico acima estão indicados os 20 jogos com maior número de retornos, avaliaçôes feitas pelos usuários.  
+    st.markdown('''<p style="color: white;text-align: justify;">No gráfico acima estão indicados os 20 jogos com maior número de retornos, avaliaçôes feitas pelos usuários.  
                 Este maior número de avaliações recebidas indica que os usuários destes jogos são mais engajados na comunidade.  
                 Estes retornos podem ser bastante utéis aos desenvolvedores nos novos projetos.                                                                                    
-                <br><br><br>''', unsafe_allow_html=True)
+                <br><br><br></p>''', unsafe_allow_html=True)
 
     # Gráfico de percentual de avaliações positivas comparado com as avaliações negativas
     #total_avaliacoes_geral = df_ordenado['Total Avaliacoes Jogo'].sum()
@@ -133,7 +133,7 @@ def app():
     
      # Analise do gráfico
     # Obs.: Para trocar de linha é necessário 02 espaços seguidos ao final da linha
-    st.markdown('''<span style="color: white;">No gráfico acima estão indicados os percentuais de avaliação dos 20 jogos com maior número de retornos, avaliaçôes feitas pelos usuários.  
+    st.markdown('''<p style="color: white;text-align: justify;">No gráfico acima estão indicados os percentuais de avaliação dos 20 jogos com maior número de retornos, avaliaçôes feitas pelos usuários.  
                 Observa-se que o jogo PLAYERUNKNOWS BATTLEGROUNDS recebeu um elevado número de avaliações negativas (49,54%), indicando a necessidade de novo rumo no desenvolvimento do jogo.  
                 Em contrapartida a jogos com altissimo número de avaliações positivas, como o THE WITCHER 3: WILD HUNT com 97,69% de avaliações positivas, indica que os desenvolvedores estão no caminho certo.
-                ''', unsafe_allow_html=True)
+                </p>''', unsafe_allow_html=True)
